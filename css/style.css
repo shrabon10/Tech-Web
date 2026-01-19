@@ -62,6 +62,25 @@ button {
         #9100F8 100%
     )
 }
+.primary-btn{
+  transition: 0.5s ease;
+}
+
+.primary-btn i{
+  transition: 0.5s ease;
+}
+
+.primary-btn:hover{
+  transform: translateY(-2px);
+}
+
+.primary-btn:hover i{
+  transform: translateX(10px);
+}
+.primary-btn:hover i{
+  transform:translateX(10px);
+}
+
 /* text styles */
 .primary-text {
     color: var(--primary-color);
@@ -99,4 +118,51 @@ button {
 .section-header {
     font-size: 3rem;
     font-weight: 700;
+}
+
+header {
+    border-bottom: 1px solid #412567;
+}
+
+#premium{
+    grid-area: premium;
+}
+#mobile {
+    grid-area: mobile;
+}
+#global {
+    grid-area: global;
+}
+#interview {
+    grid-area: interview;
+}
+#rich {
+    grid-area: rich;
+}
+
+.grid-container {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        "premium mobile mobile"
+        "premium global global"
+        "interview interview rich"
+}
+
+iframe {
+    border-radius: 24px 24px 0 0;
+}
+
+#host .icon-wrapper {
+    border-radius: 50%;
+    border: 1px solid #533C72;
+}
+
+#new {
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+}
+
+.secondary-btn {
+    border: 1px solid #00FF88;
 }
