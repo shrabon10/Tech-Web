@@ -16,9 +16,7 @@
         <!-- Header-->
         <header class="bg-primary">
             <div id="header" class="max-w-[75%] h-[92px] mx-auto flex justify-between items-center">
-                <div class="logo">
-                    <img id="logo-image" src="./assets/TechWave.png" alt="logo-text">
-                </div>
+                <div class="logo"><img id="logo-image" src="./assets/TechWave.png" alt="logo-text"></div>
                 <nav class="nav-text">
                     <ul class="flex gap-8">
                         <li><a href="#about">About</a></li>
@@ -40,13 +38,24 @@
 
 
         <!-- banner -->
-        <section id="banner" class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover py-[101px]">
-            <div id="img-container" class="mb-10 mx-auto max-w-full">
-                <div class=" mx-auto flex justify-center items-center relative">
-                    <img src="./assets/hero-circle.png" alt="">
-                    <img id="microphone" class="m-auto absolute" src="./assets/microphone.png" alt="">
-                    <div id="new" class="bg-secondary py-2 px-4 absolute top-[10px] left-[54.5%]">NEW</div>
-                </div>
+        <section id="banner" class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-center bg-cover py-[101px]">
+    
+    <div id="img-container" class="mb-10 mx-auto flex justify-center">
+        
+        <div class="relative w-[260px] sm:w-[320px] md:w-[380px] aspect-square">
+            <img src="./assets/hero-circle.png" class="w-full h-full" alt="">
+            <img
+              id="microphone"
+              class="absolute inset-0 m-auto w-[40%]"
+              src="./assets/microphone.png"
+              alt="">
+            <div
+              id="new"
+              class="bg-secondary py-2 px-4 absolute top-[6%] right-[6%] text-sm rounded-full">
+              NEW
+            </div>
+
+        </div>
 
 
             </div>
