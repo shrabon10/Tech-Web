@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* common section */
+:root {
+    --primary-color: #1A0B2E;
+    --secondary-color: #00FF88;
+
+    --background-color: #230E3D;
+    --card-color: rgba(53, 17, 101, 0.4);
+    
+    --text-size: 1rem;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+/* bacground color  */
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-background {
+    background-color: var(--background-color);
+}
+
+.bg-card {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+.bg-card2 {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
+}
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+
+
+/* button  */
+button {
+    font-size: 1rem;
+}
+
+.primary-btn {
+    background: linear-gradient(
+        to top right,
+        #F7E93F 0%,
+        #FB09B4 50%,
+        #9100F8 100%
+    )
+}
+
+.logo-wave {
+    color: linear-gradient(
+        to right,
+        #F7E93F 0%,
+        #FB09B4 50%,
+        #9100F8 100%
+    )
+}
+/* text styles */
+.primary-text {
+    color: var(--primary-color);
+}
+.secondary-text {
+    color: var(--secondary-color);
+}
+.nav-text {
+    font-size: 1rem;
+    opacity: 0.9;
+    line-height: 120%;
+}
+
+.about-paragraph {
+    font-size: 1rem;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+.card-paragraph {
+    font-size: 1rem;
+    line-height: 24px;
+    color: white;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: auto;
+}
+
+.section-header {
+    font-size: 3rem;
+    font-weight: 700;
+}
